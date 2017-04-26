@@ -1,0 +1,71 @@
+@media only screen and (max-width: 600px) {
+    .productFilter {
+        display: none;
+
+
+    }
+}
+@media only screen and (min-width: 601px) {
+    .productFilter {
+        margin-top: 20px;
+        padding: 20px;
+        width: 300px;
+        vertical-align: top;
+    }
+    .productFilter, .productList {
+        display: table-cell;
+    }
+}
+
+
+
+.productMain {
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 1%;
+    text-align: center;
+    display: table;
+}
+
+.productListBox {
+    margin: 15px;
+    float: left;
+    width: 300px;
+    height: 390px;
+    display: inline-block;
+    text-align: center;
+}
+
+.bottomNav {
+    width: 200px;
+    display: inline-flex;
+    float: left;
+    margin: 20px;
+}
+
+.productListBox:hover {
+    border: 1px solid #3c6c77;
+}
+
+.productListBox img {
+    width: 100%;
+    height: auto;
+}
+
+.productListText {
+    padding: 15px;
+    height: 200px;
+    margin: auto;
+    color: black;
+}
+
+.productListPrice {
+    color: black;
+    font-size: x-large;
+    margin: auto;
+    padding: 15px;
+    display: inline-flex;
+    text-align: justify;
+    height: 200px
+}

@@ -1,0 +1,27 @@
+.productSizes {
+    display: block;
+}
+.productSizes li {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #3c6c77;
+    padding: 5px;
+    background-color: aliceblue;
+    color: dimgray;
+
+}
+.productSizes li:hover {
+    background-color: #cccccc;
+    color: dimgray;
+
+}
+
+
+
+.product {
+    margin: 5%;
+    display: inline-block;
+    
+}
+
+

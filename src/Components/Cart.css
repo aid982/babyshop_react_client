@@ -1,0 +1,23 @@
+.cartMain {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 15px;
+}
+.cartContainer {
+    padding: 15px;
+
+}
+.productCartImg {
+    width: 100px;
+    height: 100px;
+}
+
+@media only screen and (max-width: 500px) {
+    .loginMain {
+        margin: auto;
+        width: 95%;
+        text-align: center;
+        padding: 15px;
+    }
+}
